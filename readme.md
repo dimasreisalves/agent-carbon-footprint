@@ -1,44 +1,45 @@
-# 🤖 Agente de Automação: Gerenciamento de Tarefas e Cálculo de Carbono
+# 🤖 Agente de Automação: Integração Trello & Python
 
 [![DIO - Education](https://img.shields.io/badge/DIO-Education-red)](https://www.dio.me/)
 [![Nível - Básico](https://img.shields.io/badge/Nível-Básico-green)](#)
 
 ## 📋 Descrição do Projeto
-Este repositório contém o desenvolvimento de um agente inteligente em Python, focado na automação de fluxos de trabalho. O projeto integra a API do **Trello** para gestão de tarefas com uma lógica de inteligência artificial aplicada ao cálculo e análise de pegada de carbono (**Agent Carbon Footprint**).
+Este repositório foi desenvolvido para o desafio de projeto da DIO, com foco na criação de um **Agente de Automação** utilizando Python. O sistema é capaz de interagir com a API do Trello para organizar, automatizar e otimizar fluxos de trabalho (workflows).
 
-O objetivo é demonstrar como agentes podem orquestrar tarefas complexas, desde a entrada de dados (Intake) até o aconselhamento estratégico (Advisor).
+O objetivo principal é explorar a lógica de automação, manipulação de APIs externas e a estruturação de agentes que facilitam a gestão de tarefas e a produtividade.
 
 ## 🚀 Tecnologias Utilizadas
 * **Python 3.7+**
-* **API do Trello** (para gerenciamento das demandas)
-* **Bibliotecas Python:** `requests`, `python-dotenv`
-* **Framework de Agentes:** Baseado na estrutura orquestrada da DIO.
+* **API do Trello** (Power-Up para automação de boards)
+* **Requests:** Biblioteca para chamadas HTTP.
+* **Python-dotenv:** Gerenciamento seguro de credenciais.
 
-## 📂 Estrutura de Agentes (agent04)
-O projeto é dividido em módulos especializados:
-1.  **Orquestrador:** Gerencia o fluxo entre os agentes.
-2.  **Intake:** Coleta os dados iniciais.
-3.  **Factors:** Identifica os fatores de emissão.
-4.  **Calculator:** Realiza os cálculos matemáticos.
-5.  **Advisor:** Sugere melhorias e planos de ação.
+## 📂 Estrutura do Agente
+O projeto está organizado na pasta `agent04`, contendo:
+* **`agenttaskmanager/`**: Módulo responsável pela lógica de manipulação de cartões e listas.
+* **`requirements.txt`**: Lista de dependências para o funcionamento do agente.
+* **`readme.md`**: Guia de configuração da API (Registro e Autorização).
 
 ## 🛠️ Como Configurar e Usar
 1.  **Fork e Clone:** Realize o fork deste repositório e clone em sua máquina.
-2.  **Dependências:** Instale os requisitos necessários:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3.  **Variáveis de Ambiente:** Crie um arquivo `.env` com suas credenciais do Trello:
+2.  **Obter Credenciais:**
+    * Acesse o [Trello Power-Up Admin](https://trello.com/power-ups/admin).
+    * Gere sua **API Key** e seu **Token**.
+3.  **Variáveis de Ambiente:** Crie um arquivo `.env` na raiz:
     ```env
     TRELLO_API_KEY=sua_chave_aqui
     TRELLO_TOKEN=seu_token_aqui
     ```
-4.  **Execução:** Rode o script principal para iniciar a automação.
+4.  **Execução:**
+    ```bash
+    pip install -r requirements.txt
+    python main.py
+    ```
 
 ## 👨‍💻 Desenvolvedor
 * **Seu Nome Aqui**
-* [Seu LinkedIn](https://linkedin.com/in/seu-perfil)
-* [Seu Portfólio/GitHub](https://github.com/seu-usuario)
+* [Seu LinkedIn](https://linkedin.com/in/dimas-alves-50b715176)
+* [Seu GitHub](https://github.com/seu-usuario)
 
 ---
-*Projeto desenvolvido como parte do desafio de Agentes de IA da DIO.*
+*Projeto desenvolvido como parte do desafio de automação com IA e Python da DIO.*
