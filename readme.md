@@ -37,7 +37,7 @@ O projeto está organizado na pasta `agent04`, contendo:
     ```
 
 ## 👨‍💻 Desenvolvedor
-* 
+* **Dimas Alves**
 * [LinkedIn](https://linkedin.com/in/dimas-alves-50b715176)
 * [GitHub](https://github.com/dimasreisalves/agente-automacao-trello)
 
