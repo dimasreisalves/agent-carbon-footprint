@@ -38,8 +38,8 @@ O projeto está organizado na pasta `agent04`, contendo:
 
 ## 👨‍💻 Desenvolvedor
 * 
-* [Seu LinkedIn](https://linkedin.com/in/dimas-alves-50b715176)
-* [Seu GitHub](https://https://github.com/dimasreisalves/agente-automacao-trello)
+* [LinkedIn](https://linkedin.com/in/dimas-alves-50b715176)
+* [GitHub](https://github.com/dimasreisalves/agente-automacao-trello)
 
 ---
 *Projeto desenvolvido como parte do desafio de automação com IA e Python da DIO.*
